@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 350px;
+}
+
+p{
+  text-align: justify;
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  padding: 40px;
+  border: 1px solid #000;
+  margin: 40px auto;
+}
+
+.prima-img{
+  float: left;
+  margin-right: 20px;
+}
+
+.seconda-img{
+  float: right;
+  margin-left: 20px;
+}
+
+.box{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  float: right;
+  margin-left: 20px;
+}
+
+.box-piccolo{
+  width: 70px;
+  height: 70px;
+  background-color: green;
+  border: 1px solid black;
+  
+}
+
+.box-testo{
+  float: left;
+  background-color: yellow;
+  width: 400px;
+  border: 1px solid black;
+  margin: 30px;
+}
+
+
+/* ........................ */
+
+/* con il float creare una classe clearfix con queste impostazioni da mettere al contenitore degli elementi float */
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container2{
+  width: 800px;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-bottom: 30px;
+  background-color: lightcyan;
+}
+
+.box-blu{
+  width: 300px;
+  min-height: 200px;
+  background-color: blue;
+  float: left;
+}
+
+.box-verde{
+  width: 300px;
+  height: 200px;
+  background-color: green;
+  float: right;
+}
